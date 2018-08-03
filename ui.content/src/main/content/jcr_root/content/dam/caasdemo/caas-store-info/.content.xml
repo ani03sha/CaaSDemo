@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="49241ff4-5f5f-4ddf-bf6a-ac033f95b4c5">
+    <jcr:content
+        cq:name="caas-store-info"
+        cq:parentPath="/content/dam/caasdemo"
+        jcr:description="CaaS Store Info"
+        jcr:lastModified="{Date}2018-08-03T13:14:42.969+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="CaaS Store Info"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2018-08-03T13:14:42.970+05:30">
+        <data
+            cq:model="/conf/global/settings/dam/cfm/models/caas-store-info"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:primaryType="nt:unstructured"
+                storeAddress="&lt;ul>&#xa;&lt;li>New Delhi&lt;/li>&#xa;&lt;li>Mumbai&lt;/li>&#xa;&lt;/ul>&#xa;"
+                storeAddress_x0040_ContentType="text/html"
+                storeAddress_x0040_LastModified="{Date}2018-08-03T13:14:42.851+05:30"
+                storeBackground_x0040_LastModified="{Date}2018-08-03T13:14:42.852+05:30"
+                storeLocations="New Delhi"
+                storeLocations_x0040_LastModified="{Date}2018-08-03T13:14:42.852+05:30"
+                storeName="Pizza Shop"
+                storeName_x0040_LastModified="{Date}2018-08-03T13:14:42.851+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

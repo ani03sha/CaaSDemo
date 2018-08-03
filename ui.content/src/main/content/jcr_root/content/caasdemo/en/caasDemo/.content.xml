@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-08-03T13:14:03.308+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/caasdemo/settings/wcm/templates/content-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="CaaS Demo"
+        sling:resourceType="caasdemo/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <contentfragment
+                    jcr:created="{Date}2018-08-03T13:12:53.910+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-08-03T13:14:03.269+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="weretail/components/content/contentfragment"
+                    displayMode="multi"
+                    elementNames="[storeName,storeAddress,storeLocations]"
+                    fragmentPath="/content/dam/caasdemo/caas-store-info"
+                    paragraphScope="all"
+                    text="                    Name                                            Pizza Shop            &#xa;&#xa;                        Address                                            New Delhi&#xa;&#xa;Mumbai&#xa;&#xa;&#xa;&#xa;                        Locations                                            New Delhi            &#xa;&#xa;"
+                    variationName="master"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
